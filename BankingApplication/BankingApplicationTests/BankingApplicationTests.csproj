@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TestExamples\TestLoadFile.xml" />
+    <None Remove="TestExamples\TestLoadFile8Op.xml" />
+    <None Remove="TestExamples\TestLoadFileNoOperations.xml" />
+    <None Remove="TestUsers\TestLoadFileEmployees.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TestExamples\TestLoadFileNoOperations.xml" />
+    <Content Include="TestExamples\TestLoadFile8Op.xml" />
+    <Content Include="TestExamples\TestLoadFile.xml" />
+    <Content Include="TestUsers\TestLoadFileEmployees.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankingApplication\BankingApplication.csproj" />
+  </ItemGroup>
+
+</Project>

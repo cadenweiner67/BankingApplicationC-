@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Users>
+  <user
+    username="Caden Weiner"
+    password="123">
+    <type>Client</type>
+  </user>
+  <user
+    username="Steven"
+    password="Stone">
+    <type>Client</type>
+  </user>
+  <user
+    username="Cynthia"
+    password="Spirit">
+    <type>Client</type>
+  </user>
+  <user
+    username="Ash"
+    password="Ketchum">
+    <type>Client</type>
+  </user>
+  <user
+    username="Brock"
+    password="Rock">
+    <type>Employee</type>
+  </user>
+</Users>

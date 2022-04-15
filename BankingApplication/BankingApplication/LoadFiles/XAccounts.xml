@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Accounts>
+  <Account
+    username="Caden Weiner"
+    balance="544.5"
+    accountNumber="1"
+    accountName="My Loan"
+    accountType="Client"
+    type="loan"
+    interest="0.1"
+    initialAmount="2500">
+    <LastOperations>
+      <Operation
+        opType="Payment"
+        paymentCapital="45"
+        paymentInterest="5" />
+      <Operation
+        opType="Payment"
+        paymentCapital="900"
+        paymentInterest="100" />
+      <Operation
+        opType="Payment"
+        paymentCapital="90"
+        paymentInterest="10" />
+      <Operation
+        opType="Payment"
+        paymentCapital="45"
+        paymentInterest="5" />
+      <Operation
+        opType="Payment"
+        paymentCapital="45"
+        paymentInterest="5" />
+      <Operation
+        opType="Payment"
+        paymentCapital="90"
+        paymentInterest="10" />
+      <Operation
+        opType="Payment"
+        paymentCapital="45"
+        paymentInterest="5" />
+      <Operation
+        opType="Payment"
+        paymentCapital="450"
+        paymentInterest="50" />
+      <Operation
+        opType="Payment"
+        paymentCapital="45"
+        paymentInterest="5" />
+      <Operation
+        opType="Payment"
+        paymentCapital="4.95"
+        paymentInterest="0.55" />
+    </LastOperations>
+  </Account>
+  <Account
+    username="Caden Weiner"
+    balance="2500"
+    accountNumber="2"
+    accountName="My Saving"
+    accountType="Client"
+    type="saving"
+    interest="0.02">
+    <LastOperations>
+      <Operation
+        opType="Deposit"
+        depositAmount="100"
+        depositAccount="2" />
+      <Operation
+        opType="Deposit"
+        depositAmount="100"
+        depositAccount="2" />
+      <Operation
+        opType="Withdraw"
+        withdrawalAmount="50"
+        withdrawalAccount="2" />
+      <Operation
+        opType="Withdraw"
+        withdrawalAmount="100"
+        withdrawalAccount="2" />
+      <Operation
+        opType="Withdraw"
+        withdrawalAmount="100"
+        withdrawalAccount="2" />
+      <Operation
+        opType="Deposit"
+        depositAmount="100"
+        depositAccount="2" />
+      <Operation
+        opType="Withdraw"
+        withdrawalAmount="100"
+        withdrawalAccount="2" />
+      <Operation
+        opType="Transfer"
+        depositAmount="100"
+        depositAccount="3"
+        withdrawalAmount="100"
+        withdrawalAccount="3" />
+      <Operation
+        opType="Transfer"
+        depositAmount="100"
+        depositAccount="3"
+        withdrawalAmount="100"
+        withdrawalAccount="3" />
+      <Operation
+        opType="Deposit"
+        depositAmount="100"
+        depositAccount="2" />
+    </LastOperations>
+  </Account>
+  <Account
+    username="Caden Weiner"
+    balance="1000.5"
+    accountNumber="3"
+    accountName="My Checking"
+    accountType="Client"
+    type="checking">
+    <LastOperations>
+      <Operation
+        opType="Deposit"
+        depositAmount="100"
+        depositAccount="3" />
+      <Operation
+        opType="Deposit"
+        depositAmount="100"
+        depositAccount="3" />
+      <Operation
+        opType="Withdraw"
+        withdrawalAmount="50"
+        withdrawalAccount="3" />
+      <Operation
+        opType="Withdraw"
+        withdrawalAmount="100"
+        withdrawalAccount="3" />
+      <Operation
+        opType="Withdraw"
+        withdrawalAmount="100"
+        withdrawalAccount="3" />
+      <Operation
+        opType="Deposit"
+        depositAmount="100"
+        depositAccount="3" />
+      <Operation
+        opType="Withdraw"
+        withdrawalAmount="100"
+        withdrawalAccount="3" />
+      <Operation
+        opType="Transfer"
+        depositAmount="100"
+        depositAccount="2"
+        withdrawalAmount="100"
+        withdrawalAccount="2" />
+      <Operation
+        opType="Transfer"
+        depositAmount="100"
+        depositAccount="2"
+        withdrawalAmount="100"
+        withdrawalAccount="2" />
+      <Operation
+        opType="Deposit"
+        depositAmount="100"
+        depositAccount="3" />
+    </LastOperations>
+  </Account>
+  <Account
+    username="Caden Weiner"
+    balance="1000001"
+    accountNumber="4"
+    accountName="My Life Savings"
+    accountType="Client"
+    type="saving"
+    interest="0.1">
+    <LastOperations>
+      <Operation
+        opType="Deposit"
+        depositAmount="10000"
+        depositAccount="4" />
+      <Operation
+        opType="Deposit"
+        depositAmount="10000"
+        depositAccount="4" />
+      <Operation
+        opType="Deposit"
+        depositAmount="1000"
+        depositAccount="4" />
+      <Operation
+        opType="Deposit"
+        depositAmount="10000"
+        depositAccount="4" />
+    </LastOperations>
+  </Account>
+  <Account
+    username="Caden Weiner"
+    balance="10000"
+    accountNumber="123"
+    accountName="Hello"
+    accountType="Client"
+    type="loan"
+    interest="0.3"
+    initialAmount="10000">
+    <LastOperations />
+  </Account>
+  <Account
+    username="Lycoris"
+    balance="9984.32"
+    accountNumber="10"
+    accountName="My Life Savings"
+    accountType="Client"
+    type="saving"
+    interest="0.1">
+    <LastOperations>
+      <Operation
+        opType="Deposit"
+        depositAmount="10000"
+        depositAccount="10" />
+      <Operation
+        opType="Deposit"
+        depositAmount="10000"
+        depositAccount="10" />
+      <Operation
+        opType="Deposit"
+        depositAmount="1000"
+        depositAccount="10" />
+      <Operation
+        opType="Withdraw"
+        withdrawAmount="10000"
+        withdrawAccount="10" />
+    </LastOperations>
+  </Account>
+  <Account
+    username="Lycoris"
+    balance="19644.32"
+    accountNumber="11"
+    accountName="My House Savings"
+    accountType="Client"
+    type="saving"
+    interest="0.1">
+    <LastOperations>
+      <Operation
+        opType="Deposit"
+        depositAmount="10000"
+        depositAccount="11" />
+      <Operation
+        opType="Deposit"
+        depositAmount="10000"
+        depositAccount="11" />
+      <Operation
+        opType="Deposit"
+        depositAmount="1000"
+        depositAccount="11" />
+      <Operation
+        opType="Withdraw"
+        withdrawAmount="10000"
+        withdrawAccount="11" />
+    </LastOperations>
+  </Account>
+  <Account
+    username="Lycoris"
+    balance="12544.5"
+    accountNumber="12"
+    accountName="Student Loans"
+    accountType="Client"
+    type="loan"
+    interest="0.095"
+    initialAmount="25000">
+    <LastOperations>
+      <Operation
+        opType="Payment"
+        paymentCapital="4500"
+        paymentInterest="500" />
+      <Operation
+        opType="Payment"
+        paymentCapital="9000"
+        paymentInterest="1000" />
+    </LastOperations>
+  </Account>
+</Accounts>

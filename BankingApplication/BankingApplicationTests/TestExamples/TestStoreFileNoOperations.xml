@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Accounts>
+  <Account
+    username="Caden Weiner"
+    balance="544.5"
+    accountNumber="1"
+    accountName="My Loan"
+    accountType="Client"
+    type="loan"
+    interest="0.1"
+    initialAmount="2500">
+    <LastOperations />
+  </Account>
+  <Account
+    username="Caden Weiner"
+    balance="2500"
+    accountNumber="2"
+    accountName="My Saving"
+    accountType="Client"
+    type="saving"
+    interest="0.02">
+    <LastOperations />
+  </Account>
+  <Account
+    username="Caden Weiner"
+    balance="1000.5"
+    accountNumber="3"
+    accountName="My Checking"
+    accountType="Client"
+    type="checking">
+    <LastOperations />
+  </Account>
+</Accounts>

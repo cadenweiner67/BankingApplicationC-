@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Accounts>
+  <Account type="loan" accountType="Client" username="Caden Weiner" accountNumber="1" accountName="My Loan" balance="544.5"  initialAmount="2500" interest=".10">
+    <LastOperations>
+      <Operation opType="Payment" paymentCapital="45" paymentInterest="5">
+      </Operation>
+      <Operation opType="Payment" paymentCapital="900" paymentInterest="100">
+      </Operation>
+      <Operation opType="Payment" paymentCapital="90" paymentInterest="10">
+      </Operation>
+      <Operation opType="Payment" paymentCapital="45" paymentInterest="5">
+      </Operation>
+      <Operation opType="Payment" paymentCapital="45" paymentInterest="5">
+      </Operation>
+      <Operation opType="Payment" paymentCapital="90" paymentInterest="10">
+      </Operation>
+      <Operation opType="Payment" paymentCapital="45" paymentInterest="5">
+      </Operation>
+      <Operation opType="Payment" paymentCapital="450" paymentInterest="50">
+      </Operation>
+      <Operation opType="Payment" paymentCapital="45" paymentInterest="5">
+      </Operation>
+      <Operation opType="Payment" paymentCapital="4.95" paymentInterest=".55">
+      </Operation>
+    </LastOperations>
+  </Account>
+  <Account type="saving" accountType="Client" username="Caden Weiner" accountNumber="2" accountName="My Saving" balance="2500" interest=".02">
+    <LastOperations>
+      <Operation opType="Deposit" depositAmount ="100" depositAccount ="2">        
+      </Operation>
+      <Operation opType="Deposit" depositAmount ="100" depositAccount ="2">
+      </Operation>
+      <Operation opType="Withdraw" withdrawalAmount ="50" withdrawalAccount ="2">
+      </Operation>
+      <Operation opType="Withdraw" withdrawalAmount ="100" withdrawalAccount ="2">
+      </Operation>
+      <Operation opType="Withdraw" withdrawalAmount ="100" withdrawalAccount ="2">
+      </Operation>
+      <Operation opType="Deposit" depositAmount ="100" depositAccount ="2">
+      </Operation>
+      <Operation opType="Withdraw" withdrawalAmount ="100" withdrawalAccount ="2">
+      </Operation>
+      <Operation opType="Transfer" withdrawalAmount ="100" withdrawalAccount ="3" depositAmount ="100" depositAccount ="2">
+      </Operation>
+      <Operation opType="Transfer" withdrawalAmount ="100" withdrawalAccount ="3" depositAmount ="100" depositAccount ="2">
+      </Operation>
+      <Operation opType="Deposit" depositAmount ="100" depositAccount ="2">
+      </Operation>
+    </LastOperations>
+  </Account>
+  <Account type="checking" accountType="Client" username="Caden Weiner" accountNumber="3" accountName="My Checking" balance="1000.50">
+    <LastOperations>
+      <Operation opType="Deposit" depositAmount ="100" depositAccount ="3">
+      </Operation>
+      <Operation opType="Deposit" depositAmount ="100" depositAccount ="3">
+      </Operation>
+      <Operation opType="Withdraw" withdrawalAmount ="50" withdrawalAccount ="3">
+      </Operation>
+      <Operation opType="Withdraw" withdrawalAmount ="100" withdrawalAccount ="3">
+      </Operation>
+      <Operation opType="Withdraw" withdrawalAmount ="100" withdrawalAccount ="3">
+      </Operation>
+      <Operation opType="Deposit" depositAmount ="100" depositAccount ="3">
+      </Operation>
+      <Operation opType="Withdraw" withdrawalAmount ="100" withdrawalAccount ="3">
+      </Operation>
+      <Operation opType="Transfer" withdrawalAmount ="100" withdrawalAccount ="2" depositAmount ="100" depositAccount ="3">
+      </Operation>
+      <Operation opType="Transfer" withdrawalAmount ="100" withdrawalAccount ="2" depositAmount ="100" depositAccount ="3">
+      </Operation>
+      <Operation opType="Deposit" depositAmount ="100" depositAccount ="3">
+      </Operation>
+    </LastOperations>
+  </Account>
+</Accounts>
